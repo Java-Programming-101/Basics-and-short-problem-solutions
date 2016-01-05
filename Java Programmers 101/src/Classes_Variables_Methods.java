@@ -2,7 +2,7 @@
 public class Classes_Variables_Methods {// this line defines a Class called Classes_Variables_Methods
 
 /* 
- * A Class is a Blueprint for part of your programme it holds Variables and Methods 
+ * A Class is a Blueprint for part of your program it holds Variables and Methods 
  * that make up that component of your Programme
  */
 	public static void main(String[] args){
