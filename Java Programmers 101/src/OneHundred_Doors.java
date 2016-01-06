@@ -13,19 +13,16 @@ public class OneHundred_Doors {
 	public static void main(String[] args) {
 		
 		
-		boolean[] ArrayOfdoors = new boolean[101];//Create an Array of 101 because we need to use the number 
+		boolean[] ArrayOfdoors = new boolean[100];//Create an Array of 101 because we need to use the number 
 										   //of passes over the doors to calculate where to go to next.
 		
 		
-        for (int Passes = 1; Passes <= 100; Passes++) { // for each pass ; while the number of passes is less than or equal to 100; itterate through each. 
-            for (int door = Passes; door <= 100; door++) {// for each door while the number of doors is less than or equal to 100  ; itterate through each.
-                if(door % Passes == 0) ArrayOfdoors[door] = !ArrayOfdoors[door];
-                // if the door number divided by the number of passes is equal to 0 reverse the boolean 
-            }
+        for (int Passes = 0; Passes <= 9; Passes++) {  
+        	ArrayOfdoors[Passes*(Passes+2)]=true; // if the result is the squares roots opened so....
         }
 		
-		for(int i = 1 ; i < ArrayOfdoors.length ; i++){
-			System.out.println("Door "+ (i) +" is open " + ArrayOfdoors[i]);
+		for(int i = 0 ; i < ArrayOfdoors.length-1 ; i++){
+			System.out.println("Door "+ (i+1) +" is "+ (ArrayOfdoors[i]?"open":"closed"));
 		}
 
 	}
