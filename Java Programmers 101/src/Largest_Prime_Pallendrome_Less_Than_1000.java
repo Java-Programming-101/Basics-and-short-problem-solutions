@@ -33,7 +33,7 @@ public class Largest_Prime_Pallendrome_Less_Than_1000 {
     				while (pal != 0) {
     					int remainder = pal % 10; // get the last digit of the number.
     				    reverse = reverse * 10 + remainder; // arrange the digits in reverse order.
-    				    pal = pal / 10; // reduce the value of pal by x10  
+    				    pal = pal / 10; // reduce the value of pal by x10. 
     				}
     				if (i == reverse){ // check if this prime is a palindrome. 
     					largestPrimePallendrome = i; // update the variable we declared to store palindrome's
