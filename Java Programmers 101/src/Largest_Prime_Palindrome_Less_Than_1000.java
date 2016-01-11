@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Largest_Prime_Pallendrome_Less_Than_1000 {
+public class Largest_Prime_Palindrome_Less_Than_1000 {
 
 	public static void main(String[] args) {
 		//In this program we will attempt to find the largest prime palindrome that is less than 1000.
