@@ -4,6 +4,10 @@ public class Loop_while {
 
 	public static void main(String[] args) {
 		// generate a number between 1 and 20 and only stop if the number generated is a 10.
+		
+		
+		
+		
 		Random random = new Random(); 
 		
 		int i = 0;
@@ -11,7 +15,7 @@ public class Loop_while {
 		
 		while (i != 10) { 
 		// while i is not equal to 10
-			i = random.nextInt(20);
+			i = random.nextInt(200);
 			// generate a random intager with a maximum value of 20.
 			System.out.println(i);
 		}

@@ -2,33 +2,24 @@
 public class If_else_Statements {
 
 	public static void main(String[] args) {
-		
+		int someCondition = 10;
 		//A basic if statement.
-		if(someCondition)
+		if(someCondition == 10)
 		{
-			Do something magic! 
+			System.out.println("I am in the if block!");
 		}
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		//A basic if else statement
-		if (someCondition) 
+		if (someCondition== 100) 
 		{
-			Do something magic
+			System.out.println("I am in the if block!");
+
 		} 
 		else 
 		{
-			Do something even more magical!!!
+			System.out.println("I am in the else block!");
 
 		}
 		
@@ -36,6 +27,24 @@ public class If_else_Statements {
 		
 		
 		//how many else statements can you have ?
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	   // ternary if-else mainly used for assignments. -
+		
+		int result = (someCondition < 5) ? 3 : 400;
+		
+		System.out.println("result = "+ result);
+
 
 	}
 

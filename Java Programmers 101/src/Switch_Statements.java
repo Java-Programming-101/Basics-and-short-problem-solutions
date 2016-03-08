@@ -2,25 +2,8 @@
 public class Switch_Statements {
 
 	public static void main(String[] args) {
-		switch (key) {
-		case value:
-			
-			break;
-
-		default:
-			break;
-		}
-		// delete after use an example is below of a switch statement 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		int month = 12;
+	
+		int month = 1;
 
         switch (month) {
             case 1:  
@@ -28,10 +11,11 @@ public class Switch_Statements {
             
             case 2:  
             	System.out.println("February");
+
             
             case 3:  
             	System.out.println("March");
-            
+            break;
             case 4:  
             	System.out.println("April");
             
