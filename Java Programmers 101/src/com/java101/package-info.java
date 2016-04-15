@@ -1,5 +1,5 @@
 /**
- * This Package serves to provide an example and demo of wha a packagge is and what its used for.
+ * This Package serves to provide an example and demo of what a package is and what its used for.
  */
 /**
  * @author Marc
