@@ -1,6 +1,11 @@
 
 public class Encapsulation_example {
-	
+	/*
+	 * Encapsulation is the art of hiding data from other classes so they cannot edit them.
+	 * Restricting access to the Class variable by using the keyword private. 
+	 * You allow other classes to access and change these variables by specifying methods commonly referred
+	 * to as getters and setters. This only allows other classes to manipulate the data as you define here.
+	 */
 
 	   private String name;
 	   private String idNum;
