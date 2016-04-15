@@ -36,8 +36,18 @@ public class MultiDimArray {
 
 	        System.out.println(news.toString());
 	        System.out.println(price.toString());
-
 	        System.out.println(price);
+	        /* you will notice that these print statements will print some odd output [D@6d06d69c
+	         * this is not the output you were expecting is it ? 
+	         * 
+	         * This is because you need to reference the location in the array where the data is the data
+	         * your looking to print rather than just a reference to another array because java does not
+	         *  know how to represent a reference to another array as a string. 
+	         *  there are of course methods provide in the Arrays collection that will assist you in doing this.
+	         */
+	        
+	        
+	        
 	        System.out.println(Arrays.deepToString(priceOfFuel));
 	        
 	        

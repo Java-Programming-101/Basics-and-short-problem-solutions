@@ -5,7 +5,7 @@ public class Largest_Prime_less_than_1000 {
 	public static void main(String[] args) {
 		//In this program we will attempt to find the largest prime number that is less than 1000.
 		
-		boolean[] numbers = new boolean[10000];// create an array to determine what the prime numbers are.
+		boolean[] numbers = new boolean[1000];// create an array to determine what the prime numbers are.
 		Arrays.fill(numbers, true);// assume all the numbers are prime to begin with.
 		int LargestPrime = 0;
 		

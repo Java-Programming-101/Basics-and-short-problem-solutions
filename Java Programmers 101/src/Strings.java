@@ -17,7 +17,7 @@ public class Strings {
 		greeting1 = "Goodbye ";
 		
 		// what is the outcome of adding greeting1 and greeting 2 together?
-		// Did we change the original greeting1 from Hello to Goodbye? whats happening in the memory to this?
+		// Did we change the original greeting1 from Hello to Goodbye? What's happening in the memory to this?
 		
 		
 

@@ -5,7 +5,7 @@ public class Largest_Prime_Palindrome_Less_Than_1000 {
 	public static void main(String[] args) {
 		//In this program we will attempt to find the largest prime palindrome that is less than 1000.
 		
-		boolean[] numbers = new boolean[10000];// create an array to determine what the prime numbers are.
+		boolean[] numbers = new boolean[1000];// create an array to determine what the prime numbers are.
 		Arrays.fill(numbers, true);// assume all the numbers are prime to begin with.
 		int largestPrimePallendrome = 0;// Declare a variable to store the largest prime palindrome.
 		

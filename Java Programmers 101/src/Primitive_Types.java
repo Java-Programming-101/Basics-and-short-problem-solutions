@@ -1,10 +1,6 @@
 
 public class Primitive_Types {
 	/*
-	 * 
-	 * 
-	 * 
-	 * 
 	 *  byte: Integer. 
 	 *   has a minimum value of -128 and a maximum value of 127.
 	 *  

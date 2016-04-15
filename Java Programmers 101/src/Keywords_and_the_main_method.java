@@ -16,7 +16,7 @@ public class Keywords_and_the_main_method {
 	/*
 	 * The method signature for the main() method contains three modifiers:
 	 * public indicates that the main() method can be called by any object. 
-	 * static indicates that the main() method is a class method. 
+	 * static indicates that the main() method is a class method avalible without an instance of that class being instantiated.. 
 	 * void indicates that the main() method has no return value.
 	 */
 	public static void main(String[] args) {

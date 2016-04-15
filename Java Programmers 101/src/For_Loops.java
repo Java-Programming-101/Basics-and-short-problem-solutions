@@ -42,10 +42,14 @@ public class For_Loops {
 		int totalOfMyArray=0;
 		
 		/*
-		 * The Enhanced for loop is a good choice when you have an array of objects and you want to traverse them all
-		 * 
+		 * The Enhanced for loop is a good choice when you have an array of objects and you know you
+		 * want to traverse them all
+		 * the syntax for a an enhanced for loop (also known as a for each loop) is as follow 
+		 * for (type of object in the array : in this Array){
+		 *     do something 
+		 *     }
 		 *
-		 *
+		 * Note the change in symbol in the condition
 		 */
 		
 		for ( int elemment: myArray){
@@ -57,19 +61,6 @@ public class For_Loops {
 			System.out.println(element);
 		}
 		
-	Arrays.sort(myArray);
-		boolean b = false;
-		for (int element : myArray){
-			System.out.println(element);
-			if(b) {
-				b =false;
-				continue;
-			}
-			
-			System.out.println("I should not print");
-			b=true;
-			
-		}
 	}
 
 }
