@@ -14,11 +14,15 @@ public class Read_Text_from_file_convert_to_Lowercase {
 	        String line;
 			while (( line = in.readLine()) != null) {
 						System.out.println(line.toLowerCase());	
+						
+						
 	        }
+			
 			in.close();
 	    } catch (IOException e) {
 	        System.out.println("File Read Error: " + e.getMessage());
 	    }  
+		
 		
 	}
 

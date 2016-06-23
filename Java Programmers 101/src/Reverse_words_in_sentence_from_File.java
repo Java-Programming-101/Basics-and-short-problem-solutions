@@ -12,7 +12,7 @@ public class Reverse_words_in_sentence_from_File {
 	        BufferedReader in = new BufferedReader(new FileReader(file));
 	        String line;
 	        
-			while (( line = in.readLine()) != null) {
+			while (( line = in.readLine()) != null ) {
 						String[] words = line.split(" ");
 						
 						
@@ -21,9 +21,10 @@ public class Reverse_words_in_sentence_from_File {
 								words[0]= words[0].trim();
 								System.out.println(words[i-1]);
 							}else{
-								System.out.print(words[i-1]);
+								System.out.print(words[i-1]+" ");
 							}
 						}
+						System.out.println();
 							
 			}
 			in.close();
