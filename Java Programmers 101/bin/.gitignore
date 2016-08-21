@@ -1,3 +1,4 @@
+/innerClass/
 /Add_numbers_from_file.class
 /AnonInnerClasses/
 /AnonymousInnerClasses.class
@@ -26,6 +27,9 @@
 /Print_all_Odd_Numbers.class
 /Read_Text_from_file_convert_to_Lowercase.class
 /Reverse_words_in_sentence_from_File.class
+/Simple_For_Loop.class
+/Simple_Input_Output.class
+/Strings/
 /Strings.class
 /StupidSort.class
 /Sum_of_first_1000_Prime_Numbers.class
@@ -46,5 +50,5 @@
 /multiThreading_Example4_Demo_ImplimentingRunnable/
 /nth_to_last_Element.class
 /stringBuilder/
-/Strings/
-/StringBufferTest/
+/timeAndDate/
+/static_Nested_Classes/

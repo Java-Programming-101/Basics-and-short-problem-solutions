@@ -19,7 +19,7 @@ public class Strings {
 		// what is the outcome of adding greeting1 and greeting 2 together?
 		// Did we change the original greeting1 from Hello to Goodbye? What's happening in the memory to this?
 		
-		
+		greeting1.length()
 
 	}
 	public static void p (String print){
