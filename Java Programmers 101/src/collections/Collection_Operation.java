@@ -22,7 +22,7 @@ public class Collection_Operation {
 	    
 	    Iterator iterator = collection.iterator();
 	    while(iterator.hasNext()){
-	      Object object = iterator.next();
+	      iterator.next();
 
 	      //do something to object here...
 	    }

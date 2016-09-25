@@ -65,17 +65,13 @@ public class TimeAndDate {
 	     * type   variable = LocalDate.of(int year, int month, int day);
 	     */
 		
-		/*
-		 * You may all know that Java indexes from 0 in arrays, lists etc but 
-		 * Months are different they index from 1 (being January) 
-		 */
-		LocalDate date1 = LocalDate.of(2000, 1, 1);
+		LocalDate.of(2000, 1, 1);
 		
 		/*
 		 * you can also declare this using the actual month 
 		 */
 		
-		LocalDate date2 = LocalDate.of(2000, Month.JANUARY, 1);
+		LocalDate.of(2000, Month.JANUARY, 1);
 		
 		/*
 		 * You are provided with multiple constructors to allow you to specify different things
@@ -105,7 +101,7 @@ public class TimeAndDate {
 		 * What happens when we try to declare the 32nd jan?
 		 */
 		
-		LocalDate date3 = LocalDate.of(2000, Month.JANUARY, 32);
+		LocalDate.of(2000, Month.JANUARY, 32);
 		
 		/*
 		 * It compiles but what happens when we run this ? 

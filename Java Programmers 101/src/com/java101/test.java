@@ -4,7 +4,6 @@ public class test {
 
 	public static void main(String[] args) {
 
-	int number =11 ;
 	int secondNumber =-1;
 	
 //	while ( number <= 10){

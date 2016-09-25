@@ -1,7 +1,6 @@
 package collections;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Remove_elements {
 

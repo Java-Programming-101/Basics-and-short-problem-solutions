@@ -8,9 +8,7 @@ public class TimeTest {
 		 * Time test to amend a string
 		 */
 		long start = System.currentTimeMillis();
-		String string = " ";
 		for (int i = 0 ; i < 10_000; i++){
-			string += ", ";
 		}
 		
 		

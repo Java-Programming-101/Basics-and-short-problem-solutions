@@ -6,8 +6,7 @@ public class Arrays {
 	    //to declare an array you need to state what TYPE of array it is followed by [],
 		//then give a meaningful name.
 		
-		// declaring an array. = initilizing and array. -
-		int[] ANumberArray = new int [10];
+		
 
 		//Another array way.
 		
@@ -16,15 +15,6 @@ public class Arrays {
 		myNextArray.toString();
 		myNextArray = new int[10];
 		myNextArray.toString();
-		
-		
-		
-		//Declaring another array of Ints using a shortcut syntax!
-		int[] yetAnotherArray = {3,5,9,6,2};
-		
-
-		//		You can also place the brackets after the array's name, this form is discouraged
-		int anAcceptableButBadArray [] ;
 
 		
 	}
@@ -77,8 +67,6 @@ public class Arrays {
 	                           + anArray[9]);
 	        
 	        
-	        Object[] haystack1 = {"3", "123124234", null, "needle", "world", "hay", 2, "3", true, false};
-	        Object[] haystack2 = {"283497238987234", "a dog", "a cat", "some random junk", "a piece of hay", "needle", "something somebody lost a while ago"};
 	        Object[] haystack3 = {1,2,3,4,5,6,7,8,8,7,5,4,3,4,5,6,67,5,5,3,3,4,2,34,234,23,4,234,324,324,"needle",1,2,3,4,5,5,6,5,4,32,3,45,54};
 	        
 	        for (Object object : haystack3) {
@@ -99,8 +87,6 @@ public class Arrays {
 	          
 	          System.out.println(s);
 	     
-	        int i = anArray.length;
-	        
 	        System.out.println(haystack3.toString());
 	 }
 

@@ -1,7 +1,5 @@
 package stringBuilder;
 
-import java.util.ArrayList;
-
 public class SBuilder_Demo {
 
 	public static void main(String[] args) {

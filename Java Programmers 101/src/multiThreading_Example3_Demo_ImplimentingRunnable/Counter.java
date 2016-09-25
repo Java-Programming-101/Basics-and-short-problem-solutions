@@ -20,6 +20,9 @@ public class Counter extends Thread {
 		Counter c2 = new Counter();
 		c2.start();
 		
+		 
+				
+				
 		c2.join();
 		c.join();
 		

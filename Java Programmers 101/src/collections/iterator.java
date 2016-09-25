@@ -12,10 +12,9 @@ public class iterator {
 		listA.add("element 1");
 		listA.add("element 2");
 
-		//access via index
-		String element0 = listA.get(0);
-		String element1 = listA.get(1);
-		String element3 = listA.get(2);
+		listA.get(0);
+		listA.get(1);
+		listA.get(2);
 
 
 		//access via Iterator

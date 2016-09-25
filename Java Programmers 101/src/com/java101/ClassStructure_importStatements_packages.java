@@ -1,9 +1,6 @@
 package com.java101; // packages are always imported first.
 
 
-import java.util.Scanner; // followed by import statements. 
-
-
 
 public class ClassStructure_importStatements_packages {//followed by the class.
 
@@ -40,9 +37,7 @@ class NewClass{
 }
 
 class Person{
-	private String gender;
-	private int age;
-    private String name;
+	private String name;
 	
 	public void setname(String name){
 		this.name = name;

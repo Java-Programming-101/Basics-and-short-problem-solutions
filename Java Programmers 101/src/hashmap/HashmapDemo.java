@@ -1,9 +1,6 @@
 package hashmap;
 
 import java.util.HashMap;
-import java.util.Iterator;
-
-import com.sun.glass.ui.TouchInputSupport;
 
 public class HashmapDemo {
 
