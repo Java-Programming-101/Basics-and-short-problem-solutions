@@ -67,8 +67,6 @@ public class StupidSort {
 			String line;
 			while ((line = in.readLine()) != null) {
 				int[] IntArray = sort.ChangetoIntArray(line);
-						
-				
 				int [] SortedArray = sort.SortArray(IntArray);
 				
 				sort.printSortedArray(SortedArray);

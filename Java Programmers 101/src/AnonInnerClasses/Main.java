@@ -17,21 +17,40 @@ public class Main {
 			public String greeting() {
 				return "Hello, i am an anonymous inner class";
 			}
-		}); // Note where the semi-colon goes !!!
+		});// Note where the semi-colon goes !!!
 		
 		
 		
-//		Runnable runnable = new Runnable() {
-//			
-//			@Override
-//			public void run() {
-//				System.out.println("I'm also an anonymous inner class!");
-//				
-//			}
-//		};
-//		
-//		runnable.run();
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		new Runnable() {
+			
+			@Override
+			public void run() {
+				System.out.println("I'm also an anonymous inner class!");
+				
+			}
+		};
+		
+		
 	}
 
 }
