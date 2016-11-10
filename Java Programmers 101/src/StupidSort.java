@@ -14,27 +14,23 @@ public class StupidSort {
 			if(numbersToSort[i].isEmpty() || numbersToSort[i].contains("|")){
 				//do nothing
 			}else if (i == (numbersToSort.length-1)){
-			
 				IntArray[i-1]=Integer.parseInt(numbersToSort[i]);
-				
 			}else {
-			
 				IntArray[i]=Integer.parseInt(numbersToSort[i]);
 			}
 		}
-			
-		
 		return IntArray;
-		
 	}
+	
+	
 	
 	public int numberOfIterations(int[] IntArray){
 		return IntArray[IntArray.length];
 	}
 	
+	
 
-	public int[] SortArray (int[]numbersArray) {
-		
+	public int[] SortArray (int[]numbersArray) {	
 		int iterations = numbersArray[numbersArray.length-1];
 		for (int i = 0; i < iterations; i++) {
 			

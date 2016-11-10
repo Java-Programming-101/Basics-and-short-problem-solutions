@@ -12,9 +12,13 @@ public class For_Loops {
 		/*
 		 * the basic syntax for a 'for' loop is 
 		 * 
+		 * for(initialization; BooleanExpression; updateStatement){
+		 *    some code to run in the loop. 
+		 * }
+		 * 
 		 * for (some amount of times){
 		 *     do something
-		 *     }
+		 * }
 		 *     
 		 * There are a couple of different for loops that you should be aware of. 
 		 */
@@ -35,6 +39,35 @@ public class For_Loops {
 			System.out.println("I have been in the for loop "+ (myNumber+1) + " times.");
 		}
 		// comment everything out below to see the standard for loop in action by its self. 
+		
+		
+		/*
+		 * Above i said that the syntax was 
+		 * 
+		 * for(initialization; BooleanExpression; updateStatement){
+		 *    some code to run in the loop. 
+		 * }
+		 * 
+		 * can we leave anything out of this?
+		 */
+		
+		/*
+		 * can we do these for loops ? uncoment them and find out.
+		 */
+//		for(;;){
+//		System.out.println(" Will i work????");	
+//		}
+		
+//		for(int i =0 ;; i++){
+//			System.out.println("What about me? " +i);
+//		}
+		
+//		int r = 0;
+//		int k = 500;
+//		
+//		for(; r<k ;){
+//			System.out.println(" and me? " + ++r);
+//		}
 		
 		
 		//enhanced for loop.

@@ -19,7 +19,7 @@ public class Mod_a_Number_Without_Modulo {
 			String number;
 			while ((number = in.readLine()) != null) {
 				String[] modNumbers;
-				modNumbers = number.split(",", 2);
+				modNumbers = number.split(",");
 				int mod = mod_a_Number_Without_Modulo.findMod(Integer.parseInt(modNumbers[0]),Integer.parseInt(modNumbers[1]));
 				System.out.println(mod);
 			}

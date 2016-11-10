@@ -2,6 +2,9 @@ package collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
+
+import javafx.scene.layout.AnchorPane;
 
 public class iterator {
 
@@ -18,10 +21,11 @@ public class iterator {
 
 
 		//access via Iterator
+		
+		// an iterator can only move forward. 
 		Iterator iterator = listA.iterator();
 		while(iterator.hasNext()){
-		  String element = (String) iterator.next();
-		  System.out.println(element);
+		  System.out.println(iterator.next());
 		}
 
 
@@ -30,10 +34,10 @@ public class iterator {
 		    System.out.println(elementsInList);
 		}
 
-		
-		
-		//Removing an element from the list. 
-		
+	
+		// if you wanted to move forward and backward then you would need a list iterator. 
+		ListIterator iterator2 = listA.listIterator();
+		iterator2.hasPrevious();
 		
 		
 		

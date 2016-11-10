@@ -6,14 +6,21 @@ public class ArrayLists {
 
 	public static void main(String[] args) {
 
-		ArrayList items = new ArrayList<>();
+		ArrayList items = new ArrayList();
 		
 		items.add("Java");
 		items.add("101");
 		items.add("experts!");
 		items.add(0,"Hello");
 		
+		items.size();
 		
+		items.remove("101");
+		if (items.contains("Java")){
+			System.out.println("Ahh java! ");
+		}
+		
+		ArrayList list = new ArrayList<>(5);
 		
 	/*
 	 * 	The first three add() calls add a String instance to the end of the list. 
