@@ -2,7 +2,7 @@ package inheritance;
 
 public interface myInterface {
 	
-	void doSomething();
+	String doSomething(Double number);
 	
 	void doSomethingelse();
 

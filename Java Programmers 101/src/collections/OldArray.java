@@ -8,9 +8,9 @@ public class OldArray {
 	public static void main(String[] args) {
 		String names[] = {"Bob", "Milly","Mindy"};
 		
-		for (String string : names){
-			System.out.println(string);
-		}
+//		for (String string : names){
+//			System.out.println(string);
+//		}
 		
 		
 		/*
@@ -18,7 +18,7 @@ public class OldArray {
 		 */
 		
 		
-		//names[3] = "Barry";
+		names[3] = "Barry";
 		
 		
 		
@@ -45,16 +45,16 @@ public class OldArray {
 		 * something like this.
 		 */
 		
-		String copy[] = names;
-		names = new String [4];
-		for (int i = 0; i < copy.length ; i++){
-			names[i] = copy[i];
-		}
-		names[3]= "Barry";
-		
-		for (String string : names){
-			System.out.println(string);
-		}
+//		String copy[] = names;
+//		names = new String [4];
+//		for (int i = 0; i < copy.length ; i++){
+//			names[i] = copy[i];
+//		}
+//		names[3]= "Barry";
+//		
+//		for (String string : names){
+//			System.out.println(string);
+//		}
 
 	}
 

@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=item
-comment0.target=void\ addItem(builderpatten.Item)
-comment1.params=
-comment1.target=float\ getCost()
-comment2.params=
-comment2.target=void\ showItems()
-numComments=3

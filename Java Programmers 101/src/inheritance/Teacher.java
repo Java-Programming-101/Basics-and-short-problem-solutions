@@ -21,9 +21,9 @@ public class Teacher extends Person implements myInterface{
 	}
 
 	@Override
-	public void doSomething() {
+	public String doSomething(Double number) {
 		// notice that this is a method that the interface myInterface demands that we override.
-		
+		return "jsjs";
 	}
 	
 	public String getSubjectTaught(){

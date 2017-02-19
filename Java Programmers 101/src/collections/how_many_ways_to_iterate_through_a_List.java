@@ -13,21 +13,22 @@ public class how_many_ways_to_iterate_through_a_List {
 		 * Here is an example of iterating a List with an Iterator:
 		 */
 		
-		List list = new ArrayList();
+		List <String> list = new ArrayList<>();
 		list.add("1");
 		list.add("2");
 		list.add("3");
 
 		//add elements to list
 
-		Iterator iterator = list.iterator();
+		Iterator<String> iterator = list.iterator();
 		while(iterator.hasNext()) {
 		    Object next = iterator.next();
 		    System.out.println((String)next);
 		}
 		
 		/*
-		 * Once you have obtained an Iterator you can keep calling its hasNext() method until it returns false. Calling hasNext() is done inside a while loop as you can see.
+		 * Once you have obtained an Iterator you can keep calling its hasNext() method until it returns false. 
+		 * Calling hasNext() is done inside a while loop as you can see.
 		 * Inside the while loop you call the next() method of the Iterator interface to obtain the next element pointed to by the Iterator.
 		 * If the List is typed you can save some object casting inside the while loop. Here is an example:
 		 */ 

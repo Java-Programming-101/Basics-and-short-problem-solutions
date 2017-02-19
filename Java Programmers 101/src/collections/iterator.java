@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-import javafx.scene.layout.AnchorPane;
 
 public class iterator {
 
@@ -15,9 +14,9 @@ public class iterator {
 		listA.add("element 1");
 		listA.add("element 2");
 
-		listA.get(0);
-		listA.get(1);
-		listA.get(2);
+//		listA.get(0);
+//		listA.get(1);
+//		listA.get(2);
 
 
 		//access via Iterator

@@ -31,6 +31,7 @@ class CheckedExample {
 	
 	public void runChecked(){
 	      FileInputStream fis = null;
+	      try{
 	      fis = new FileInputStream("C:\\Users\\Marc\\git\\Basics-and-short-problem-solutions\\Java Programmers 101\\src\\Test Text File.txt");
 	      int k; 
 
@@ -39,6 +40,8 @@ class CheckedExample {
 		   System.out.print((char)k); 
 	      } 
 	      fis.close(); 	
+	   }catch(Exception e){
+		   
 	   }
 }
 

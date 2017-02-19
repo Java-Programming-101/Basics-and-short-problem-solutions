@@ -1,6 +1,7 @@
 package inheritance;
 
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 	
@@ -12,19 +13,39 @@ public class Main {
 //		Person marc = new Person("Marc");
 		Student angela = new Student("Angela","20/02/1980", "JAVA");
 		Teacher bob = new Teacher("Bob", "16/02/1990", "Java 101");
-
-//		Receptionist reception = new Receptionist();
-//
-//		reseption.showInformation(angela);
-//		reseption.showInformation(bob);
-
-
-		Receptionist.showInformation(bob);
-		Receptionist.showInformation(angela);
+		Teacher harry = new Teacher("Harry", "1/07/1999", "Physics");
 		
-		bob.setName("not bob");
+		angela.printInfo();
+		
+		
+//		angela.printInfo();
+//		bob.printInfo();
+//		harry.printInfo();
 
-		Receptionist.showInformation(bob);
+//		
+//		List<Person> pList = new ArrayList<>();
+//		pList.add(angela);
+//		pList.add(harry);
+//		pList.add(bob);
+//		
+//		
+//	Receptionist reception = new Receptionist();
+//
+	
+//	for(Person person : pList){
+//		reception.showInformation(person);
+//	}
+
+
+//reception.showInformation((Student)obj);
+
+
+//		Receptionist.showInformation(bob);
+//		Receptionist.showInformation(angela);
+//		
+//		bob.setName("not bob");
+//
+//		Receptionist.showInformation(bob);
 		
 		
 		

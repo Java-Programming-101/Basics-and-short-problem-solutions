@@ -14,7 +14,7 @@ public class Remove_elements {
 		listA.remove(1);
 		
 		
-		listA.add("Element 3");
+		listA.add("element 3");
 		
 		
 		listA.remove("element 0");

@@ -3,15 +3,6 @@ package inheritance;
 public abstract class Person {
 	private String name, birthdate;
 
-
-	public String getName() {
-		return name;
-	}
-
-	public String getBirthdate() {
-		return birthdate;
-	}
-
 	public Person(String personName, String personBirthdate) {
 		name = personName;
 		birthdate = personBirthdate;		
@@ -25,6 +16,14 @@ public abstract class Person {
 	     this(personName, "Default Birthdate");
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public String getBirthdate() {
+		return birthdate;
+	}
+	
 	public void setName (String input){
 		this.name = input;
 	}
@@ -33,7 +32,6 @@ public abstract class Person {
 		this.birthdate = input;
 	}
 	
-	// the method we had last week.
 	public abstract void printInfo();
 	
 	

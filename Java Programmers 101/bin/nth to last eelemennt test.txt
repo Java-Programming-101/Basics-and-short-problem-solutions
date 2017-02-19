@@ -1,6 +1,0 @@
-a b c d 4
-e f g h 2
-i h u i 1
-i i t s 9 
-h v f r 4 
-h u g t 0
